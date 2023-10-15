@@ -9,7 +9,8 @@ body{
 
 
 .header{
-    background-color: #1F2937;
+    background: url(/odin-landing-page/images/itachiiii.webp) center no-repeat;
+    background-size: cover;
     height: 500px;
 }
 
@@ -80,11 +81,12 @@ a {
     width: 500px;
     object-fit: cover;
     object-position: center;
+    filter:brightness(80%);
 }
 
 .sign-up-button{
     color: #f9faf8;
-    background-color: #3882f6;
+    background-color: #CC0000;
     font-size: 18px;
     width: 125px;
     margin-top: 10px;
@@ -141,33 +143,42 @@ a {
 }
 
 .quote{
+    
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote-text-container{
         display: flex;
         justify-content: center;
+        align-items: center;
+        width: 1000px;
+        height: 220px;
 }
 
 .quote-text{
     font-size: 36px;
-    padding-top: 100px;
-    padding-left: 100px;
-    padding-right: 100px;
     margin: 0;
     font-style: italic;
     font-weight: lighter;
+    color:#1f2937;
+    text-align: justify;
 }
 
 .author-container{
+    display: flex;
+    width: 1000px;
+    justify-content: right;
 }
 
 .quote-author{
     font-weight: bold;
     font-size: 24px;
-    text-align: right;
-    padding-right: 400px;
     margin: 0;
+    color:#1f2937;
 }
 
 .sign-up{
