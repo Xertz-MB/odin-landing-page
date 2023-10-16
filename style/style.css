@@ -143,12 +143,14 @@ a {
 }
 
 .quote{
-    
-    background-color: #E5E7EB;
+    background: url(/odin-landing-page/images/itachi\ on\ post.png)right center no-repeat;
+    background-size: 300px;
+    background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .quote-text-container{
@@ -163,8 +165,7 @@ a {
     font-size: 36px;
     margin: 0;
     font-style: italic;
-    font-weight: lighter;
-    color:#1f2937;
+    color: #CC0000;
     text-align: justify;
 }
 
@@ -178,7 +179,7 @@ a {
     font-weight: bold;
     font-size: 24px;
     margin: 0;
-    color:#1f2937;
+    color: #CC0000;
 }
 
 .sign-up{
