@@ -112,7 +112,7 @@ a {
 
 .rounded-square {
     border: 5px solid;
-    border-color: #3882f6;
+    border-color: #CC0000;
     width: 160px;
     height: 160px;
     border-radius: 8px;
@@ -240,3 +240,14 @@ a {
     font-weight: bold;
 }
 
+
+footer{
+    height: 50px;
+    font-size: 18px;
+    background: url(/odin-landing-page/images/itachiiii.webp)bottom center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB;
+}
